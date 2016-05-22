@@ -320,13 +320,13 @@ if (game.device.pixelRatio >= 2) {
  
  
  // click stops music and goes to menu
-  if (game.input.activePointer.justPressed()) {
-            
-            if (game.input.activePointer.targetObject != null) { return false }
-            else {
-            game.endmusic.stop();
-            game.state.start('MainMenu');}
-        }
+ // if (game.input.activePointer.justPressed()) {
+ //        
+  //          if (game.input.activePointer.targetObject != null) { return false }
+  //          else {
+  //          game.endmusic.stop();
+  //            game.state.start('MainMenu');}
+  //      }
  
  
 
