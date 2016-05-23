@@ -360,7 +360,7 @@ if (game.device.pixelRatio >= 2) {
         game.collectables.scale.setTo(1.5);
 
         // phaser's random number generator
-        var numCollectables = game.rnd.integerInRange(100, 150);
+        var numCollectables = game.rnd.integerInRange(125, 150);
         var collectable;
 
         for (var i = 0; i < numCollectables; i++) {
